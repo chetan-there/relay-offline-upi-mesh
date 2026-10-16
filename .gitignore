@@ -1,0 +1,18 @@
+# secrets / local config
+.env
+*.env
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# local sqlite leftovers from the pre-MySQL version
+*.db
+
+# node
+node_modules/
+dist/
